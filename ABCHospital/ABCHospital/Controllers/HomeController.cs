@@ -51,7 +51,7 @@ namespace ABCHospital.Controllers
             patient.Name = "Ajay";
             patient.age = 22;
             patient.bg = "A+ve";
-            ViewBag.Score = 351;
+           
             return View(patient);
 
 
